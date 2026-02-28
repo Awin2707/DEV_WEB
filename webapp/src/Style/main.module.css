@@ -1,0 +1,76 @@
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.bar{
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.barleft{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.barmid{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.barright{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    padding-left: 30px;
+    width: 40px;
+    height: 40px;
+}
+.logoHeading{    
+    padding-left: 15px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.btn{
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.8s all ease-in;
+    background: linear-gradient(90deg,#4285F4, #002B59);
+    border: 1px solid black;
+    color: #fafafa;
+}
+.btn:active{
+    transform: scale(0.92);
+}
+.log{
+    text-decoration: none;
+    color: #4285F4;
+    border-bottom: 2px solid transparent; /* define first */
+    transition: border-color 0.3s ease;
+}
+
+.log:hover{
+    border-bottom-color: #3e434a;
+}
+.haeder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+}
